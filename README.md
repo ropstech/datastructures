@@ -2,7 +2,7 @@
 
 # Table of Contents
 
-[Big O Notation](Big%20O%20Notation)
+[Big O Notation](big-o-notation.md)
 
 1. [Big O Notation](#1-big-o-notation)
     - [General Explanation](#general-explanation)
