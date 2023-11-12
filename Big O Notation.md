@@ -133,3 +133,42 @@ def factorial_recursive(n):
         return 1
     return n * factorial_recursive(n - 1)
 ```
+
+## Interview Questions
+
+**Question:** You are given an array of integers. Write a function to find the position of a specific target integer in the array. If the target is not present, return -1.
+
+```python
+# Answer:
+def find_number_position(numbers, target):
+    for i in range(len(numbers)):
+        if numbers[i] == target:
+            return i
+    return None
+
+numbers = [12, 34, 68, 45, 68, 89]
+target_number = 68
+# Execution Time: 0.0000047684 seconds
+```
+
+**Additional Question:** The current function (_find_number_position_) has a time complexity of O(n), which is deemed too slow for large datasets. Please modify the function to achieve a more efficient time complexity
+
+```python
+def binary_search(numbers, target):
+    low, high = 0, len(numbers) - 1
+
+    while low <= high:
+        mid = (low + high) // 2
+        if numbers[mid] == target:
+            return mid
+        elif numbers[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+
+    return None
+numbers = [12, 34, 68, 45, 68, 89]
+target_number = 68
+# Execution Time: 0.0000011921 seconds
+```
+
