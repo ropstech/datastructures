@@ -1,5 +1,10 @@
 # Big O Notation
 
+- [General Explanation](#general-explanation)
+- [Rulues of Big O](#rulues-of-big-o)
+- [Common Big O Notations](#common-big-o-notations)
+- [Interview Questions](#interview-questions)
+
 ## General Explanation
 Big O Notation is a mathematical notation used to describe the efficiency of an algorithm in terms of its time complexity. Specifically, it indicates how the runtime of an algorithm grows in relation to the size of its input. It serves as a measure of algorithmic efficiency, providing insights into how well an algorithm can handle larger datasets. The notation is expressed using "O" followed by a function that represents the upper bound of the algorithm's growth rate concerning input size.
 
@@ -140,6 +145,7 @@ def factorial_recursive(n):
 
 ```python
 # Answer:
+# -> commonly known as a "linear search" or "sequential search")
 def find_number_position(numbers, target):
     for i in range(len(numbers)):
         if numbers[i] == target:
@@ -154,6 +160,8 @@ target_number = 68
 **Additional Question:** The current function (_find_number_position_) has a time complexity of O(n), which is deemed too slow for large datasets. Please modify the function to achieve a more efficient time complexity
 
 ```python
+# Answer:
+# Known as "binary search"
 def binary_search(numbers, target):
     low, high = 0, len(numbers) - 1
 
