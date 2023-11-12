@@ -4,6 +4,8 @@
 
 1. [Big O Notation](Big%20O%20Notation.md)
     - [General Explanation](Big%20O%20Notation.md#general-explanation)
+    - [Rulues of Big O](Big%20O%20Notation.md#rulues-of-big-o)
+    - [Common Big O Notations](Big%20O%20Notation.md#common-big-o-notations)
 2. [Arrays](#2-arrays)
     - [Static Arrays](#a-static-arrays)
     - [Dynamic Arrays](#b-dynamic-arrays)
