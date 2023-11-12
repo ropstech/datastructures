@@ -3,6 +3,7 @@
 # Table of Contents
 
 1. [Big O Notation](Big%20O%20Notation.md)
+    - [General Explanation](Big%20O%20Notation.md#general-explanation)
 2. [Arrays](#2-arrays)
     - [Static Arrays](#a-static-arrays)
     - [Dynamic Arrays](#b-dynamic-arrays)
