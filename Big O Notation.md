@@ -1,11 +1,11 @@
-## 1. Big O Notation
+# Big O Notation
 
-### General Explanation
+## General Explanation
 Big O Notation is a mathematical notation used to describe the efficiency of an algorithm in terms of its time complexity. Specifically, it indicates how the runtime of an algorithm grows in relation to the size of its input. It serves as a measure of algorithmic efficiency, providing insights into how well an algorithm can handle larger datasets. The notation is expressed using "O" followed by a function that represents the upper bound of the algorithm's growth rate concerning input size.
 
 In verbal communication, "O(n)" is often spoken as "order of n." It represents the upper bound or worst-case scenario for the growth rate of an algorithm in relation to the size of its input.
 
-### Rulues of Big O
+## Rulues of Big O
 
 - Keep only the fastest growing term
 - Drop constants
@@ -16,7 +16,7 @@ time = 6*n² + 2*n + 20
 
 b+n + c becomes irrelevant when the value of n is very large.
 
-### Common Big O Notations
+## Common Big O Notations
 
 **O(1) - Constant Time Complexity:**
 
