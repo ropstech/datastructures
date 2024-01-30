@@ -3,6 +3,8 @@
 - [General Explanation](#general-explanation)
     - [Double Linked Lists](#double-linked-lists)
 - [Common Big O Notations](#common-big-o-notations)
+    - [Comparison of Arrays and Linked Lists](#comparison-of-arrays-and-linked-lists)
+- [Python Implementation](#python-implementation)
 - [Interview Questions](#interview-questions)
 
 ## General Explanation
@@ -38,3 +40,13 @@ Here you not only have a reference to the next element, but also to the previous
 - Insert Element at the beginning -> **_O(1)_**
 - Delete Element at the beginning -> **_O(1)_**
 - Insert/Delete Element at the end or in the middle -> **_O(n)_** because you have to iterate through the elements
+
+### Comparison of Arrays and Linked Lists
+| |  Array | Linked List | 
+|---|---|---:|
+| Indexing  | O(1)  | O(n) |
+| Insert/Delete Element at Start  | O(n) | O(1) |
+| Insert/Delete Element at End  | O(1)  | O(n)  |
+| Insert Element in the Middle  | O(n)  | O(n)  |
+
+## Python Implementation
