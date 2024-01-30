@@ -16,4 +16,10 @@
         - [4. Array insertion](Arrays.md#4-array-insertion)
         - [5. Array deletion](Arrays.md#5-array-deletion)
     - [Interview Questions](#interview-questions)
-
+3. [Linked Lists](Linked%20Lists.md)
+    - [General Explanation](Linked%20Lists.md#general-explanation)
+        - [Double Linked Lists](Linked%20Lists.md#double-linked-lists)
+    - [Common Big O Notations](Linked%20Lists.md#common-big-o-notations)
+        - [Comparison of Arrays and Linked Lists](Linked%20Lists.md#comparison-of-arrays-and-linked-lists)
+    - [Python Implementation](Linked%20Lists.md#python-implementation)
+    - [Interview Questions](Linked%20Lists.md#interview-questions)
