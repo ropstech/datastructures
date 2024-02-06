@@ -4,7 +4,6 @@
 - [General Explanation](#general-explanation)
     - [Key Features](#key-featuures)
 - [Common Big O Notations](#common-big-o-notations)
-    - [Comparison of Arrays and Linked Lists](#comparison-of-arrays-and-linked-lists)
 - [Python Implementation](#python-implementation)
 - [Interview Questions](#interview-questions)
 
@@ -35,3 +34,47 @@ Hash tables, also known as hash maps or dictionaries in Python, are data structu
 
 ## Python Implementation:
 In Python, hash tables are implemented using dictionaries (dict). Below is an example of using a hash table to store and retrieve key-value pairs:
+
+```python
+from typing import Dict, Any
+
+# Define a hash table using a dictionary
+HashTable = Dict[str, Any]
+
+
+def create_hash_table() -> HashTable:
+    """Create an empty hash table."""
+    return {}
+
+
+def insert_into_hash_table(hash_table: HashTable, key: str, value: Any) -> None:
+    """Insert a key-value pair into the hash table."""
+    hash_table[key] = value
+
+
+def lookup_in_hash_table(hash_table: HashTable, key: str) -> Any:
+    """Lookup the value associated with the given key in the hash table."""
+    return hash_table.get(key)
+
+
+def main():
+    # Create an empty hash table
+    hash_table = create_hash_table()
+
+    # Insert key-value pairs
+    insert_into_hash_table(hash_table, 'name', 'John')
+    insert_into_hash_table(hash_table, 'age', 30)
+
+    # Lookup values by keys
+    name = lookup_in_hash_table(hash_table, 'name')
+    age = lookup_in_hash_table(hash_table, 'age')
+
+    # Print the retrieved values
+    print(f"Name: {name}")  # Output: Name: John
+    print(f"Age: {age}")    # Output: Age: 30
+
+
+if __name__ == "__main__":
+    main()
+
+```
